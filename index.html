@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishnu Prasad N | Portfolio</title>
+  <meta name="description" content="Portfolio of Vishnu Prasad N, Computer Science and Design student building AI, web and IoT projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- START LIGHTS INTRO -->
+  <div id="intro" aria-hidden="true">
+    <div class="gantry">
+      <div class="light-col"><span></span><span></span><span></span><span></span></div>
+      <div class="light-col"><span></span><span></span><span></span><span></span></div>
+      <div class="light-col"><span></span><span></span><span></span><span></span></div>
+      <div class="light-col"><span></span><span></span><span></span><span></span></div>
+      <div class="light-col"><span></span><span></span><span></span><span></span></div>
+    </div>
+    <p class="intro-text" id="introText">FORMATION LAP</p>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#home" class="logo">VP<span>N</span></a>
+    <nav>
+      <a href="#about">Paddock</a>
+      <a href="#skills">Telemetry</a>
+      <a href="#projects">Race Results</a>
+      <a href="#journey">Track Map</a>
+      <a href="#contact">Pit Stop</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <p class="pill"><i class="dot"></i>GREEN FLAG · LET'S BUILD SOMETHING TOGETHER</p>
+        <p class="tag">STUDENT PROFILE · CHENNAI, INDIA</p>
+        <h1>Vishnu Prasad <span class="accent">N</span></h1>
+        <p class="role">Computer Science and Design Engineer in the Making<span class="cursor">_</span></p>
+        <p class="lead">I sit where code meets design. I build AI-powered web platforms and IoT systems with fast iterations, clean interfaces and a focus on how things feel to use.</p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">View Race Results</a>
+          <a href="#contact" class="btn ghost">Enter the Pit</a>
+        </div>
+      </div>
+      <div class="speedo" aria-hidden="true">
+        <svg viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="84" class="ring-bg" />
+          <defs><linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff1e2d"/><stop offset="55%" stop-color="#ffb400"/><stop offset="100%" stop-color="#00e676"/></linearGradient></defs>
+          <circle cx="100" cy="100" r="84" class="ring-fg" id="heroRing" />
+          <text x="100" y="100" text-anchor="middle" class="speedo-num" id="speedoNum">0</text>
+          <text x="100" y="128" text-anchor="middle" class="speedo-unit">PASSION %</text>
+        </svg>
+      </div>
+      <div class="stripe"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="title"><span>01</span> The Paddock</h2>
+      <div class="about-grid">
+        <figure class="driver reveal">
+          <div class="driver-photo">
+            <img src="vishnu.png" alt="Vishnu Prasad N" loading="lazy" />
+          </div>
+          <figcaption>
+            <b>Vishnu Prasad N</b>
+            <span>CSD · Class of 2029</span>
+          </figcaption>
+        </figure>
+        <div class="about-text reveal">
+          <p>I am a Computer Science and Design student pursuing a Bachelor of Engineering at Easwari Engineering College, Chennai (graduating 2029). I enjoy working where engineering meets design, and I am motivated to learn, adapt and contribute in technical settings.</p>
+          <p>My strengths are Python, SQL and technical problem solving, backed by strong communication and public speaking. I stay calm under pressure and aim for steady improvement, lap after lap.</p>
+          <p>Outside of coursework I explore emerging AI tools, build hackathon projects and love UI/UX design and frontend development, which is where my design side shows up most.</p>
+        </div>
+        <div class="stats reveal">
+          <div class="stat"><b data-count="3">0</b><small>Featured Projects</small></div>
+          <div class="stat"><b data-count="5">0</b><small>Certifications</small></div>
+          <div class="stat"><b data-count="2029">0</b><small>Graduating</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section dark">
+      <h2 class="title"><span>02</span> Telemetry</h2>
+      <p class="sub">Live readout of the tools and strengths under the hood.</p>
+      <div class="gauges">
+        <div class="gauge reveal" data-val="85"><div class="bar"><i></i></div><div class="meta"><span>Python</span><em>85%</em></div></div>
+        <div class="gauge reveal" data-val="75"><div class="bar"><i></i></div><div class="meta"><span>SQL</span><em>75%</em></div></div>
+        <div class="gauge reveal" data-val="75"><div class="bar"><i></i></div><div class="meta"><span>React and TypeScript</span><em>75%</em></div></div>
+        <div class="gauge reveal" data-val="70"><div class="bar"><i></i></div><div class="meta"><span>FastAPI and MongoDB</span><em>70%</em></div></div>
+        <div class="gauge reveal" data-val="65"><div class="bar"><i></i></div><div class="meta"><span>Java</span><em>65%</em></div></div>
+        <div class="gauge reveal" data-val="80"><div class="bar"><i></i></div><div class="meta"><span>Problem Solving</span><em>80%</em></div></div>
+        <div class="gauge reveal" data-val="75"><div class="bar"><i></i></div><div class="meta"><span>UI/UX and Frontend Design</span><em>75%</em></div></div>
+        <div class="gauge reveal" data-val="80"><div class="bar"><i></i></div><div class="meta"><span>Public Speaking</span><em>80%</em></div></div>
+      </div>
+      <div class="chips reveal">
+        <span>Project Management</span><span>Communication</span><span>Presentation</span>
+        <span>Calm Under Pressure</span><span>Commitment to Excellence</span><span>Willingness to Learn</span>
+        <span>ESP32 / IoT</span><span>Linux</span><span>HTML</span><span>UI/UX</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2 class="title"><span>03</span> Race Results</h2>
+      <div class="results">
+        <article class="card reveal">
+          <div class="pos">P1</div>
+          <div class="body">
+            <h3>PrivacyAudit AI</h3>
+            <p class="kicker">DPDP Compliance and Privacy Risk Assessment Platform</p>
+            <ul>
+              <li>AI-powered platform that assesses organizational data-processing activities and flags privacy and compliance risks under India's DPDP framework.</li>
+              <li>Frontend dashboard in React and TypeScript with compliance scores, findings, data-flow visualization and remediation tracking.</li>
+              <li>FastAPI backend with MongoDB Atlas for processing, storing and retrieving assessment data.</li>
+              <li>Features include risk identification, compliance gap analysis, remediation recommendations and reporting.</li>
+            </ul>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>FastAPI</span><span>Python</span><span>MongoDB Atlas</span><span>NLP</span><span>AI</span></div>
+            <a href="https://privexa1.vercel.app/" target="_blank" rel="noopener" class="btn primary card-link">View Project</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="pos">P2</div>
+          <div class="body">
+            <h3>IoT-Based Smart Farming</h3>
+            <p class="kicker">Embedded sensors for precision agriculture</p>
+            <ul>
+              <li>Smart agriculture system that monitors soil moisture, temperature, humidity and environmental conditions.</li>
+              <li>Multiple sensors integrated on an ESP32-based system to collect real-time agricultural data.</li>
+              <li>Automated monitoring and control mechanisms to support efficient irrigation and better resource use.</li>
+            </ul>
+            <div class="tags"><span>Java</span><span>IoT</span><span>ESP32</span><span>Soil Moisture</span><span>DHT11</span><span>LDR</span><span>LCD</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="pos">P3</div>
+          <div class="body">
+            <h3>AICTE VerifyAI</h3>
+            <p class="kicker">AI-Powered Application Validation System · SIH 2026</p>
+            <ul>
+              <li>AI-powered platform built for Smart India Hackathon 2026 to automate the validation and verification of AICTE institutional approval applications, reducing manual effort and improving accuracy and regulatory compliance.</li>
+              <li>Extracts information from uploaded documents using OCR (Tesseract) and automated field extraction.</li>
+              <li>Identifies inconsistencies and flags potential fraud and compliance gaps through anomaly detection and compliance checking.</li>
+              <li>Generates structured verification reports to support faster and more reliable decisions by AICTE.</li>
+              <li>Interactive compliance dashboard in React, TypeScript and Tailwind CSS, backed by a Python and FastAPI service with MongoDB for application and validation data.</li>
+            </ul>
+            <div class="tags"><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>Python</span><span>FastAPI</span><span>MongoDB</span><span>Tesseract OCR</span><span>Anomaly Detection</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- JOURNEY / CERTS -->
+    <section id="journey" class="section dark">
+      <h2 class="title"><span>04</span> Track Map</h2>
+      <div class="journey">
+        <div class="timeline reveal">
+          <h3>Education</h3>
+          <div class="t-item">
+            <b>B.E. COMPUTER SCIENCE AND DESIGN</b>
+            <span>Easwari Engineering College, Chennai · Class of 2029</span>
+            <ul>
+              <li>Pursuing B.E. in Computer Science and Design (CSD) at Easwari Engineering College, Chennai, graduating in 2029.</li>
+              <li>Coursework in fintech and technology alongside core computer science subjects.</li>
+              <li>Dissertation work in fintech and agriculture.</li>
+              <li>Hands-on projects across AI, full-stack web development and IoT, including PrivacyAudit AI, IoT-Based Smart Farming and AICTE VerifyAI.</li>
+              <li>Active in hackathons, including Smart India Hackathon 2026.</li>
+              <li>Strengths in Python, SQL, frontend development and UI/UX design, backed by communication and public speaking skills.</li>
+            </ul>
+          </div>
+          <h3>Languages</h3>
+          <div class="langs"><span>English · C2</span><span>Tamil · C2</span></div>
+        </div>
+        <div class="timeline reveal">
+          <h3>Certifications</h3>
+          <div class="t-item"><b>AWS AI Practitioner</b><span>AIF-C01</span></div>
+          <div class="t-item"><b>Cisco</b><span>HTML and Python Essentials</span></div>
+          <div class="t-item"><b>Infosys Springboard</b><span>Java Programming Fundamentals</span></div>
+          <div class="t-item"><b>MongoDB</b><span>Basics</span></div>
+          <div class="t-item"><b>Linux</b><span>Basic Commands</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="title"><span>05</span> Pit Stop</h2>
+      <p class="sub">Have a project, internship or hackathon idea? Box, box, let's talk.</p>
+      <div class="contact">
+        <a class="c-card reveal" href="mailto:09vishnuprasad07@gmail.com"><small>EMAIL</small><b>09vishnuprasad07@gmail.com</b></a>
+        <a class="c-card reveal" href="tel:+916381578193"><small>PHONE</small><b>+91 63815 78193</b></a>
+        <div class="c-card reveal"><small>BASE</small><b>Chennai, India</b></div>
+      </div>
+      <div class="socials reveal">
+        <a href="https://github.com/Vishnu9109" target="_blank" rel="noopener" class="btn ghost social"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>GitHub</a>
+        <a href="https://www.linkedin.com/in/vishnu-prasad-325240382/" target="_blank" rel="noopener" class="btn ghost social"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="stripe"></div>
+    <div class="foot-social">
+      <a href="https://github.com/Vishnu9109" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+      <a href="https://www.linkedin.com/in/vishnu-prasad-325240382/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+    </div>
+    <p>© <span id="year"></span> Vishnu Prasad N · Built with HTML, CSS and JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
